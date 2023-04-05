@@ -1,0 +1,461 @@
+<!-- CQ-WE Contest Settings file for 2013 -->
+<!-- Modified by N4HAI on 09/28/2013 -->
+<!-- No changes from 2013, except date-->
+
+<Settings date="01/01/2023">
+  <Instructions>
+    <LogSubmission instructions = "To submit the CQ-WE log, locate the log file and email it to your coordinator."/>
+    <LogSubmission instructions = "Normally, the log file resides in &quot;My Documents&quot; and is named &quot;CQWELog_&lt;year&gt;_&lt;Your Call&gt;.xml&quot;"/>
+    <LogSubmission instructions = "Your log file is: {0}."/>
+
+    <HRDSetup instructions ="Open HRD's IP Server window by clicking 'IP Server=' under the 'Tools' menu.  Copy the server name (usually your PC name)" />
+    <HRDSetup instructions ="and port number.    If Network Name does not work, try using one of the numeric IP Addresses, usually '192.168.x.x'  Important!"  />
+    <HRDSetup instructions ="The IP server must be started for the CQ-WE application to get frequency and mode information.  Click 'Start' in " />
+    <HRDSetup instructions ="the IP server window to start the IP Server.  Many users also click 'Start server when HRD starts' so that this feature can" />
+    <HRDSetup instructions ="be available all the time."/>
+  </Instructions>
+
+  <LicenseClasses>
+    <LicenseClass id="Amateur Extra"/>
+    <LicenseClass id="Advanced"/>
+    <LicenseClass id="General"/>
+    <LicenseClass id="Technician"/>
+    <LicenseClass id="Not Provided"/>
+  </LicenseClasses>
+
+  <Bands>
+    <Band id="160M"/>
+    <Band id="80M"/>
+    <Band id="40M"/>
+    <Band id="20M"/>
+    <Band id="15M"/>
+    <Band id="10M"/>
+    <Band id="6M"/>
+    <Band id="2M"/>
+    <Band id="70cm"/>
+  </Bands>
+
+  <ModeGroups>
+    <ModeGroup id = "CW">
+      <Mode id="CW"></Mode>
+    </ModeGroup>
+    <ModeGroup id = "PH">
+      <Mode id="SSB"></Mode>
+      <Mode id="AM"></Mode>
+      <Mode id="FM"></Mode>
+      <Mode id="DSTAR"></Mode>
+    </ModeGroup>
+    <ModeGroup id = "DIG">
+      <Mode id="RTTY"></Mode>
+      <Mode id="PSK31"></Mode>
+      <Mode id="SSTV"></Mode>
+      <Mode id="PKT"></Mode>
+      <Mode id="ATV"></Mode>
+      <Mode id="DSTAR Data"></Mode>
+    </ModeGroup>
+
+  </ModeGroups>
+
+  <Locations>
+    <Location id = "AC">
+      <LocationName>AT&amp;T Headquarters</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "AE">
+      <LocationName>Alcatel-Lucent - Europe</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "AK">
+      <LocationName>Atlanta (Norcross) Works</LocationName>
+      <State>GA</State>
+    </Location>
+    <Location id = "AL">
+      <LocationName>Allentown Works</LocationName>
+      <State>PA</State>
+    </Location>
+    <Location id = "AT">
+      <LocationName>Atlanta Works</LocationName>
+      <State>GA</State>
+    </Location>
+    <Location id = "BA">
+      <LocationName>Baltimore Works</LocationName>
+      <State>MD</State>
+    </Location>
+    <Location id = "BB">
+      <LocationName>PLPM Transmission Equip</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "BC">
+      <LocationName>Bellcore</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "BH">
+      <LocationName>Birmingham, AL</LocationName>
+      <State>AL</State>
+    </Location>
+    <Location id = "BK">
+      <LocationName>Berkeley Heights</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "CA">
+      <LocationName>California Service Center</LocationName>
+      <State>CA</State>
+    </Location>
+    <Location id = "CB">
+      <LocationName>Columbus Works</LocationName>
+      <State>OH</State>
+    </Location>
+    <Location id = "CD">
+      <LocationName>Cleveland Service Ctr</LocationName>
+      <State>OH</State>
+    </Location>
+    <Location id = "CE">
+      <LocationName>Central Regional Center</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "CI">
+      <LocationName>Cincinnati Service Center</LocationName>
+      <State>OH</State>
+    </Location>
+    <Location id = "CN">
+      <LocationName>Connecticut Svc Ctr</LocationName>
+      <State>CT</State>
+    </Location>
+    <Location id = "CQ">
+      <LocationName>Dublin Training Center</LocationName>
+      <State>OH</State>
+    </Location>
+    <Location id = "DA">
+      <LocationName>Dallas Service Center</LocationName>
+      <State>TX</State>
+    </Location>
+    <Location id = "DJ">
+      <LocationName>Dallas Works</LocationName>
+      <State>TX</State>
+    </Location>
+    <Location id = "DQ">
+      <LocationName>NY Comm Product Center</LocationName>
+      <State>NY</State>
+    </Location>
+    <Location id = "DR">
+      <LocationName>Denver Works</LocationName>
+      <State>CO</State>
+    </Location>
+    <Location id = "EA">
+      <LocationName>Eastern Regional Center</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "GC">
+      <LocationName>Guilford Center</LocationName>
+      <State>NC</State>
+    </Location>
+    <Location id = "HO">
+      <LocationName>Holmdel</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "HQ">
+      <LocationName>Western Electric Headquarters</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "HW">
+      <LocationName>Hawthorne Works</LocationName>
+      <State>IL</State>
+    </Location>
+    <Location id = "ID">
+      <LocationName>Indiana Service Center</LocationName>
+      <State>IN</State>
+    </Location>
+    <Location id = "IH">
+      <LocationName>Indian Hill Labs</LocationName>
+      <State>IL</State>
+    </Location>
+    <Location id = "IL">
+      <LocationName>AT&amp;T Illinois Services</LocationName>
+      <State>IL</State>
+    </Location>
+    <Location id = "IN">
+      <LocationName>Indianapolis Works</LocationName>
+      <State>IN</State>
+    </Location>
+    <Location id = "KA">
+      <LocationName>Kansas City Service Ctr</LocationName>
+      <State>KS</State>
+    </Location>
+    <Location id = "KC">
+      <LocationName>Kansas City Works</LocationName>
+      <State>MO</State>
+    </Location>
+    <Location id = "KY">
+      <LocationName>Kearny Works</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "LA">
+      <LocationName>Southern Cal Service Ctr</LocationName>
+      <State>CA</State>
+    </Location>
+    <Location id = "LJ">
+      <LocationName>AT&amp;T Communications</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "LZ">
+      <LocationName>Avaya - Lincroft</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "MD">
+      <LocationName>Morris Township Facility</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "MG">
+      <LocationName>Montgomery Works</LocationName>
+      <State>IL</State>
+    </Location>
+    <Location id = "MH">
+      <LocationName>Bell Labs-Murray Hill</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "MI">
+      <LocationName>Miami Service Center</LocationName>
+      <State>FL</State>
+    </Location>
+    <Location id = "MN">
+      <LocationName>Michigan Service Center</LocationName>
+      <State>MI</State>
+    </Location>
+    <Location id = "MP">
+      <LocationName>Minneapolis Service Ctr</LocationName>
+      <State>MN</State>
+    </Location>
+    <Location id = "MR">
+      <LocationName>Mountain NE Region</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "MS">
+      <LocationName>Northwest Bell Institute</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "MT">
+      <LocationName>AT&amp;T - Middletown</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "MV">
+      <LocationName>Lucent Merrimack Valley</LocationName>
+      <State>MA</State>
+    </Location>
+    <Location id = "NA">
+      <LocationName>Nashville Service Center</LocationName>
+      <State>TN</State>
+    </Location>
+    <Location id = "NE">
+      <LocationName>Northeast Regional Ctr</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "NJ">
+      <LocationName>New Jersey Svc Ctr</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "NO">
+      <LocationName>New Orleans Svc Ctr</LocationName>
+      <State>LA</State>
+    </Location>
+    <Location id = "NR">
+      <LocationName>New River Valley Works</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "NW">
+      <LocationName>Network Software Ctr</LocationName>
+      <State>IL</State>
+    </Location>
+    <Location id = "OA">
+      <LocationName>Omaha Works</LocationName>
+      <State>NE</State>
+    </Location>
+    <Location id = "OC">
+      <LocationName>Oklahoma City</LocationName>
+      <State>OK</State>
+    </Location>
+    <Location id = "PA">
+      <LocationName>Penn Service Center</LocationName>
+      <State>PA</State>
+    </Location>
+    <Location id = "PB">
+      <LocationName>Pittsburgh Service Ctr</LocationName>
+      <State>PA</State>
+    </Location>
+    <Location id = "PC">
+      <LocationName>Pacific Regional Ctr</LocationName>
+      <State>CA</State>
+    </Location>
+    <Location id = "PD">
+      <LocationName>Oregon Service Center</LocationName>
+      <State>OR</State>
+    </Location>
+    <Location id = "PH">
+      <LocationName>Phoenix Works</LocationName>
+      <State>AZ</State>
+    </Location>
+    <Location id = "PR">
+      <LocationName>Engineering Rsrch Ctr - Princeton</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "QA">
+      <LocationName>New England Tel</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "QB">
+      <LocationName>So New England Tel</LocationName>
+      <State>CT</State>
+    </Location>
+    <Location id = "QC">
+      <LocationName>New York Tel</LocationName>
+      <State>NY</State>
+    </Location>
+    <Location id = "QD">
+      <LocationName>Bell Atlantic</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "QE">
+      <LocationName>Bell Atlantic</LocationName>
+      <State>PA</State>
+    </Location>
+    <Location id = "QG">
+      <LocationName>South Central Bell</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "QI">
+      <LocationName>Iowa Northwestern Bell</LocationName>
+      <State>IA</State>
+    </Location>
+    <Location id = "QJ">
+      <LocationName>C&amp;P Telephone Co</LocationName>
+      <State>VA</State>
+    </Location>
+    <Location id = "QK">
+      <LocationName>Ameritech Services</LocationName>
+      <State>OH</State>
+    </Location>
+    <Location id = "QM">
+      <LocationName>Bell South</LocationName>
+      <State>GA</State>
+    </Location>
+    <Location id = "QN">
+      <LocationName>Ohio Bell Telephone</LocationName>
+      <State>OH</State>
+    </Location>
+    <Location id = "QP">
+      <LocationName>Cincinnati Bell</LocationName>
+      <State>OH</State>
+    </Location>
+    <Location id = "QR">
+      <LocationName>Indiana Bell</LocationName>
+      <State>IN</State>
+    </Location>
+    <Location id = "QS">
+      <LocationName>Michigan Bell</LocationName>
+      <State>MI</State>
+    </Location>
+    <Location id = "QT">
+      <LocationName>Illinois Bell</LocationName>
+      <State>IL</State>
+    </Location>
+    <Location id = "QV">
+      <LocationName>Southwestern Bell</LocationName>
+      <State>TX</State>
+    </Location>
+    <Location id = "QW">
+      <LocationName>Mountain States Tel</LocationName>
+      <State>CO</State>
+    </Location>
+    <Location id = "QX">
+      <LocationName>Pacific Northwest Bell</LocationName>
+      <State>WA</State>
+    </Location>
+    <Location id = "QY">
+      <LocationName>Pacific Bell</LocationName>
+      <State>CA</State>
+    </Location>
+    <Location id = "QZ">
+      <LocationName>Wisconsin Bell</LocationName>
+      <State>WI</State>
+    </Location>
+    <Location id = "RD">
+      <LocationName>Reading Works</LocationName>
+      <State>PA</State>
+    </Location>
+    <Location id = "RG">
+      <LocationName>Richmond Works</LocationName>
+      <State>VA</State>
+    </Location>
+    <Location id = "RZ">
+      <LocationName>Corp Education Center</LocationName>
+      <State>IL</State>
+    </Location>
+    <Location id = "SC">
+      <LocationName>Sandia National Labs</LocationName>
+      <State>NM</State>
+    </Location>
+    <Location id = "SE">
+      <LocationName>Idaho Service Center</LocationName>
+      <State>ID</State>
+    </Location>
+    <Location id = "SL">
+      <LocationName>Salt Lake City Svc Ctr</LocationName>
+      <State>UT</State>
+    </Location>
+    <Location id = "SN">
+      <LocationName>San Leandro Svc Ctr</LocationName>
+      <State>CA</State>
+    </Location>
+    <Location id = "SO">
+      <LocationName>Lucent Southern Rgnl Ctr</LocationName>
+      <State>GA</State>
+    </Location>
+    <Location id = "SP">
+      <LocationName>Shreveport Works</LocationName>
+      <State>LA</State>
+    </Location>
+    <Location id = "ST">
+      <LocationName>Solid State Tech Ctr</LocationName>
+      <State>PA</State>
+    </Location>
+    <Location id = "SW">
+      <LocationName>Southwestern Rgnl Ctr</LocationName>
+      <State>MO</State>
+    </Location>
+    <Location id = "SY">
+      <LocationName>Syracuse Center</LocationName>
+      <State>NY</State>
+    </Location>
+    <Location id = "TT">
+      <LocationName>Teletype Corp, Skokie</LocationName>
+      <State>IL</State>
+    </Location>
+    <Location id = "TY">
+      <LocationName>Teletype Corp, Little Rock</LocationName>
+      <State>AR</State>
+    </Location>
+    <Location id = "VL">
+      <LocationName>Vandenburg Labs</LocationName>
+      <State></State>
+    </Location>
+    <Location id = "WH">
+      <LocationName>Whippany, NJ</LocationName>
+      <State>NJ</State>
+    </Location>
+    <Location id = "WA">
+      <LocationName>Washington DC Svc Ctr</LocationName>
+      <State>DC</State>
+    </Location>
+    <Location id = "WL">
+      <LocationName>Winston-Salem Shops</LocationName>
+      <State>NC</State>
+    </Location>
+    <Location id = "WR">
+      <LocationName>Winston-Salem Bell Labs</LocationName>
+      <State>NC</State>
+    </Location>
+    <Location id = "ZZ">
+      <LocationName>Non-Bell System</LocationName>
+      <State></State>
+    </Location>
+  </Locations>
+</Settings>
